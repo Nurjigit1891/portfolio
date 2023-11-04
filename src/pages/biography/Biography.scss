@@ -1,0 +1,52 @@
+.container-bio {
+    width: 1200px;
+    margin: 50px auto;
+    position: relative;
+
+    .arrowBackIcon {
+        position: absolute;
+        left: -50px;
+    }
+
+    .text-main {
+        margin-top: 50px;
+    }
+
+    .block-text {
+        margin-top: 50px;
+
+        .text-p {
+            font-weight: 500;
+        }
+    }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .container-bio {
+        width: 300px;
+        margin: 50px auto;
+        position: relative;
+    
+        .arrowBackIcon {
+            position: absolute;
+            left: 0px;
+            top: 45px;
+        }
+    
+        .text-main {
+            margin-top: 50px;
+        }
+    
+        .block-text {
+            margin-top: 50px;
+    
+            .text-p {
+                font-weight: 500;
+            }
+        }
+    
+    
+    }
+}

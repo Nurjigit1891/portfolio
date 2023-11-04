@@ -1,0 +1,758 @@
+.section-1 {
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+.container {
+    width: 1200px;
+    margin: 0px auto;
+    padding-top: 60px;
+}
+
+.container-section-1 {
+    display: flex;
+
+    .left {
+        width: 50%;
+
+        .name {
+
+            .name-p {
+                color: white;
+                font-size: 70px;
+                font-weight: 600;
+            }
+        }
+
+        .last-name {
+
+            .last-name-p {
+                color: white;
+                font-size: 40px;
+            }
+        }
+
+        .text-developer {
+            margin-top: 40px;
+
+            .text-developer-p {
+                
+                color: #24243e;
+                font-size: 60px;
+                font-weight: 600;
+                background-color: #fff;
+            }
+        }
+
+        .left-btns {
+
+            margin-top: 40px;
+            margin-bottom: 190px;
+
+            .btns-button-1 {
+                background-color: rgb(0, 95, 173);
+                color: white;
+                padding: 12px 30px;
+                font-size: 22px;
+                border-radius: 5px;
+                font-weight: 700;
+                letter-spacing: 1.5px;
+                border: 2px solid  rgb(0, 95, 173);
+                cursor: pointer;
+                text-decoration: none;
+
+
+                transition: all 0.3s ease;
+            }
+
+            .btns-button-2 {
+                background-color: white;
+                color: #24243e;
+                padding: 12px 30px;
+                font-size: 22px;
+                border-radius: 5px;
+                font-weight: 700;
+                border-radius: 20px;
+                margin-left: 50px;
+                border: 2px solid white;
+                cursor: pointer;
+                text-decoration: none;
+
+                transition: all 0.3s ease;
+            }
+
+            .btns-button-1:hover {
+                background-color: transparent;
+                color: rgb(0, 95, 173);
+                border: 2px solid  rgb(0, 95, 173);
+                border-radius: 15px;
+            }
+
+            .btns-button-2:hover {
+                background-color: transparent;
+                color: white;
+                border: 2px solid  white;
+                border-radius: 1px;
+            }
+        }
+
+        
+
+        
+    }
+    .right {
+        width: 50%;
+
+        .myAvatar {
+            width: 20em; /* Используем em или rem для относительных размеров */
+            height: 20em;
+            margin-left: 150px;
+            margin-top: 100px;
+            border-radius: 50%;
+            object-fit: cover; /* Сохраняем пропорции и обрезаем изображение, чтобы оно соответствовало рамке */
+          }
+    }
+
+}
+.arrowDown {
+
+    width: 200px;
+    margin-left: 600px;
+
+
+    .iconArrow {
+        font-size: 90px;
+        color: whitesmoke;
+
+    }
+}
+
+.section-2 {
+    background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+    height: 500px;
+    .container-section-2 {
+        width: 1200px;
+        margin: 0 auto;
+        padding-top: 60px;
+
+        .section-2-text-1 {
+            color: white;
+            font-size: 40px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .project {
+            display: flex !important;
+            margin-top: 50px;
+            padding-left: 340px;
+
+
+            .project-imgDiv-1 {
+                background: url('../../../assets/DALL·E\ 2023-11-03\ 14.36.43\ -\ Photo\ of\ a\ rabbit\ character\ in\ an\ anthropomorphic\ style\,\ wearing\ an\ elegant\ suit\,\ posing\ with\ a\ cheeky\ grin.png');
+                background-position: center center;
+                background-size: cover; 
+                border-radius: 30px;
+
+                width: 300px;
+                height: 300px
+            }
+
+            .project-imgDiv-2 {
+                background: url('../../../assets/task.png');
+                background-position: center center;
+                background-size: cover; 
+                border-radius: 30px;
+
+                width: 300px;
+                height: 300px
+            }
+
+            .project-textDiv-1 {
+                margin-left: 100px;
+                .nameProject {
+                    color: white;
+                    font-size: 40px;
+                    font-weight: 700;
+                }
+
+                .descriptionProject {
+                    margin-top: 20px;
+                    color: white;
+                    width: 400px;
+                    line-height: 22px;
+                    margin-bottom: 40px;
+                }
+
+                .toYntymakLink {
+                    color: white;
+                    font-size: 30px;
+                    padding: 10px 20px;
+                    border: 1px solid white;
+                    text-decoration-thickness: 0.2px; 
+
+                    transition: all 0.3s ease;
+                }
+
+                .toYntymakLink:hover {
+                    color: #302b63;
+                    background-color: white;
+                }
+            }
+        }
+    }
+}
+
+
+.section-3 {
+    background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+
+    .container-section-3 {
+        width: 1200px;
+        margin: 0 auto ;
+        padding-top: 50px;
+        padding-bottom: 100px;
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        .myAvatar {
+            width: 10em; /* Используем em или rem для относительных размеров */
+            height: 10em;
+            margin-left: 500px;
+            margin-top: 20px;
+            border-radius: 50%;
+            object-fit: cover; /* Сохраняем пропорции и обрезаем изображение, чтобы оно соответствовало рамке */
+          }
+          
+
+        .myNameBlock {
+            margin-top: 20px;
+            width:350px;
+            display: flex;
+            color: white;
+            align-items: center;
+            margin-left: 420px;
+
+            .myNameIcon {
+                font-size: 50px;
+            }
+
+            .myName {
+                margin-left: 20px;
+                font-size: 25px;
+                font-weight: 700;
+
+            }
+
+        }
+
+        .myAgeBlock {
+            display: flex;
+            color: white;
+            align-items: center;
+            width: 150px;
+            margin-left: 520px;
+            margin-top: 20px;
+
+            .myAge {
+                font-size: 35px;
+                font-weight: 700;
+                margin-left: 10px;
+
+            }
+
+            .myAgeIcon {
+                font-size: 40px;
+            }
+        }
+
+        .myEducationBlock {
+            display: flex;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            
+
+            .myEducation {
+                margin-left: 20px;
+                font-size: 25px;
+            }
+
+
+            .myEducationIcon {
+                font-size: 50px;
+            }
+        }
+
+      
+    }
+
+}
+
+.section-4 {
+    background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+
+    .container-section-4 {
+        width: 1200px;
+        margin: 0 auto;
+        padding-top: 40px;
+        padding-bottom: 50px;
+
+
+        display: flex;
+        justify-content: center;
+
+        .section-4-text-1 {
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        .skill {
+            width: 400px;
+
+            .skillName {
+                color: white;
+            }
+
+            .skillLevel {
+                color: white;
+            }
+
+            .skillIcon  {
+                width: 50px;
+                margin-top: 30px;
+            }
+        }
+    }
+
+    .linkToBiografyBlock {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 100px;
+
+        .linkToBiografy {
+            color: white;
+            margin-top: 50px;
+            text-decoration: none;
+            font-size: 30px;
+            border-radius: 20px;
+            border: 1px solid white;
+            padding: 20px 30px;
+
+            transition: all 0.4s ease;
+        }
+
+        .linkToBiografy:hover {
+            background-color: #fff;
+            color: black;
+        }
+    }
+}
+
+.laptop3d {
+    position: absolute;
+    top: 30px;
+    left:600px;
+    width: 300px;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .section-1 {
+        background: #0f0c29;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+    
+    .container {
+        width: 300px;
+        margin: 0px auto;
+        padding-top: 60px;
+    }
+    
+    .container-section-1 {
+        display: block;
+    
+        .left {
+            width: 50%;
+    
+            .name {
+    
+                .name-p {
+                    color: white;
+                    font-size: 40px;
+                    font-weight: 500;
+                }
+            }
+    
+            .last-name {
+    
+                .last-name-p {
+                    color: white;
+                    font-size: 30px;
+                }
+            }
+    
+            .text-developer {
+                margin-top: 40px;
+    
+                .text-developer-p {
+                    
+                    color: #24243e;
+                    font-size: 30px;
+                    font-weight: 600;
+                    background-color: #fff;
+                    width: 250px;
+                }
+            }
+    
+            .left-btns {
+    
+                margin-top: 40px;
+                margin-bottom: 50px;
+                display: flex;
+                flex-direction: column;
+
+    
+                .btns-button-1 {
+                    background-color: rgb(0, 95, 173);
+                    color: white;
+                    padding: 12px 30px;
+                    font-size: 22px;
+                    border-radius: 5px;
+                    font-weight: 700;
+                    letter-spacing: 1.5px;
+                    border: 2px solid  rgb(0, 95, 173);
+                    cursor: pointer;
+                    text-decoration: none;
+                    font-size: 15px;
+    
+    
+                    transition: all 0.3s ease;
+                }
+    
+                .btns-button-2 {
+                    background-color: white;
+                    color: #24243e;
+                    padding: 12px 30px;
+                    font-size: 22px;
+                    border-radius: 5px;
+                    font-weight: 700;
+                    border-radius: 20px;
+                    margin-left: 0px;
+                    border: 2px solid white;
+                    cursor: pointer;
+                    text-decoration: none;
+                    font-size: 15px;
+                    margin-top: 20px;
+                    width: 160px;
+
+    
+                    transition: all 0.3s ease;
+                }
+    
+                .btns-button-1:hover {
+                    background-color: transparent;
+                    color: rgb(0, 95, 173);
+                    border: 2px solid  rgb(0, 95, 173);
+                    border-radius: 15px;
+                }
+    
+                .btns-button-2:hover {
+                    background-color: transparent;
+                    color: white;
+                    border: 2px solid  white;
+                    border-radius: 1px;
+                }
+            }
+    
+            
+    
+            
+        }
+        .right {
+            width: 50%;
+    
+            .myAvatar {
+                width: 15em; /* Используем em или rem для относительных размеров */
+                height: 15em;
+                margin-left: 0px;
+                margin-top: 20px;
+                border-radius: 50%;
+                object-fit: cover; /* Сохраняем пропорции и обрезаем изображение, чтобы оно соответствовало рамке */
+              }
+        }
+    
+    }
+    .arrowDown {
+    
+        width: 200px;
+        margin-left: 600px;
+    
+    
+        .iconArrow {
+            font-size: 90px;
+            color: whitesmoke;
+            display: none;
+    
+        }
+    }
+    
+    .section-2 {
+        background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+        height: 500px;
+
+        .container-section-2 {
+            width: 290px;
+            margin: 0 auto;
+            padding-top: 60px;
+    
+            .section-2-text-1 {
+                color: white;
+                font-size: 20px;
+                font-weight: 600;
+                text-align: center;
+            }
+    
+            .project {
+                display: block !important;
+                margin-top: 50px;
+                padding-left: 20px;
+
+                .toHelperTask {
+                    color: white;
+                    width: 200px;
+                    margin-left: 80px;
+                    font-size: 20px;
+                    padding: 10px 20px;
+                    border: 1px solid white;
+                    text-decoration-thickness: 0.2px; 
+
+                    transition: all 0.3s ease;
+                }
+    
+    
+                .project-imgDiv-1 {
+                    background: url('../../../assets/DALL·E\ 2023-11-03\ 14.36.43\ -\ Photo\ of\ a\ rabbit\ character\ in\ an\ anthropomorphic\ style\,\ wearing\ an\ elegant\ suit\,\ posing\ with\ a\ cheeky\ grin.png');
+                    background-position: center center;
+                    background-size: cover; 
+                    border-radius: 30px;
+    
+                    width: 250px;
+                    height: 250px
+                }
+    
+                .project-imgDiv-2 {
+                    background: url('../../../assets/task.png');
+                    background-position: center center;
+                    background-size: cover; 
+                    border-radius: 30px;
+    
+                    width: 250px;
+                    height: 250px
+                }
+    
+                .project-textDiv-1 {
+                    margin-left: 2px;
+                    .nameProject {
+                        color: white;
+                        font-size: 40px;
+                        font-weight: 700;
+                        width: 290px;
+                        margin-top: 10px;
+                        margin-bottom: 20px;
+                    }
+    
+                    .descriptionProject {
+                        display: none;
+                        margin-top: 20px;
+                        color: white;
+                        width: 400px;
+                        line-height: 22px;
+                        margin-bottom: 40px;
+                    }
+    
+                    .toYntymakLink  {
+                        color: white;
+                        font-size: 20px;
+                        padding: 10px 20px;
+                        border: 1px solid white;
+                        text-decoration-thickness: 0.2px; 
+                        margin-left: 80px;
+
+                        transition: all 0.3s ease;
+                    }
+    
+                    .toYntymakLink:hover {
+                        color: #302b63;
+                        background-color: white;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+    .section-3 {
+        background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+    
+        .container-section-3 {
+            width: 300px;
+            margin: 0 auto ;
+            padding-top: 50px;
+            padding-bottom: 100px;
+    
+            h1 {
+                color: white;
+                text-align: center;
+            }
+    
+            .myAvatar {
+                width: 10em; /* Используем em или rem для относительных размеров */
+                height: 10em;
+                margin-left: 70px;
+                margin-top: 20px;
+                border-radius: 50%;
+                object-fit: cover; /* Сохраняем пропорции и обрезаем изображение, чтобы оно соответствовало рамке */
+              }
+              
+    
+            .myNameBlock {
+                margin-top: 20px;
+                width:350px;
+                display: flex;
+                color: white;
+                align-items: center;
+                margin-left: 0px;
+    
+                .myNameIcon {
+                    font-size: 40px;
+                }
+    
+                .myName {
+                    margin-left: 20px;
+                    font-size: 20px;
+                    font-weight: 700;
+    
+                }
+    
+            }
+    
+            .myAgeBlock {
+                display: flex;
+                color: white;
+                align-items: center;
+                width: 150px;
+                margin-left: 80px;
+                margin-top: 20px;
+    
+                .myAge {
+                    font-size: 25px;
+                    font-weight: 700;
+                    margin-left: 10px;
+    
+                }
+    
+                .myAgeIcon {
+                    font-size: 30px;
+                }
+            }
+    
+            .myEducationBlock {
+                display: flex;
+                color: white;
+                align-items: center;
+                justify-content: center;
+                margin-top: 20px;
+                
+    
+                .myEducation {
+                    margin-left: 20px;
+                    font-size: 20px;
+                }
+    
+    
+                .myEducationIcon {
+                    font-size: 40px;
+                }
+            }
+    
+          
+        }
+    
+    }
+    
+    .section-4 {
+        background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+    
+        .container-section-4 {
+            width: 300px;
+            margin: 0 auto;
+            padding-top: 40px;
+            padding-bottom: 50px;
+    
+    
+            display: flex;
+            justify-content: center;
+    
+            .section-4-text-1 {
+                color: white;
+                margin-bottom: 40px;
+            }
+    
+            .skill {
+                width: 300px;
+    
+                .skillName {
+                    color: white;
+                }
+    
+                .skillLevel {
+                    color: white;
+                }
+    
+                .skillIcon  {
+                    width: 50px;
+                    margin-top: 30px;
+                }
+            }
+        }
+    
+        .linkToBiografyBlock {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 100px;
+    
+            .linkToBiografy {
+                color: white;
+                margin-top: 50px;
+                text-decoration: none;
+                font-size: 30px;
+                border-radius: 20px;
+                border: 1px solid white;
+                padding: 20px 30px;
+    
+                transition: all 0.4s ease;
+            }
+    
+            .linkToBiografy:hover {
+                background-color: #fff;
+                color: black;
+            }
+        }
+    }
+    
+    .laptop3d {
+        display: none;
+        position: absolute;
+        top: 120px;
+        left:200px;
+        width: 100px;
+    }
+    
+}
