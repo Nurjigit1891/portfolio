@@ -223,7 +223,7 @@ const Section = () => {
                 </div>
               </div>
 
-              <div className="project secondDiv">
+              <div  className="project secondDiv">
                 <div className="project-imgDiv-2"></div>
                 <div className="project-textDiv-1">
                   <p className='nameProject'>Task Helper</p>
@@ -271,12 +271,12 @@ const Section = () => {
         </div>
       </div>
 
-      <div className="section-4">
-        <div ref={ref2} className="container-section-4">
+      <div  className="section-4">
+        <div className="container-section-4">
           <div id='skillBox' className='skillBlock' >
-            <motion.h2 initial={{ x: -100, opacity: 0 }} custom={0} animate={animation2} className='section-4-text-1'>My Skills</motion.h2>
+            <h2 initial={{ x: -100, opacity: 0 }} custom={0} animate={animation2} className='section-4-text-1'>My Skills</h2>
             {skills.map((skill, index) => (
-              <motion.div key={index} initial={{ x: -100, opacity: 0 }} custom={index + 1} animate={animation2} className="skill">
+              <div key={index} initial={{ x: -100, opacity: 0 }} custom={index + 1} animate={animation2} className="skill">
                 <img src={skill.icon} alt={skill.name} className="skillIcon" />
                 <a href={skill.link} target="_blank" rel="noopener noreferrer">
                   <Typography className='skillName' variant="subtitle1">{skill.name}</Typography>
@@ -287,7 +287,7 @@ const Section = () => {
                   sx={{ height: 8, backgroundColor: '#e0e0e0', borderRadius: 4 }}
                 />
                 <Typography variant="caption" className='skillLevel' sx={{ textAlign: 'right' }}>{skill.level}%</Typography>
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>
