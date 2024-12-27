@@ -9,6 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import CakeIcon from '@mui/icons-material/Cake';
 import SchoolIcon from '@mui/icons-material/School';
+import vanillaPicture from '../../../assets/vanilla.jpg'
 import myPhoto from '../../../assets/photo_2023-11-03_19-19-17.jpg'
 import { LinearProgress, Typography } from '@mui/material';
 import { useInView } from 'react-intersection-observer';
@@ -240,9 +241,32 @@ const Section = () => {
                 </div>              
                 </div>
 
-                <div className="project thirdDiv">
-                  
-                </div>
+                <div className="project fourthDiv">
+                  <div
+                        className="project-imgDiv-4"
+                        style={{
+                          backgroundImage: `url(${vanillaPicture})`,
+                          backgroundSize: 'cover',
+                          backgroundPosition: 'center',
+                        }}
+                      />
+                      <div className="project-textDiv-1">
+                        <p className="nameProject">Vanilla Coffee Shop</p>
+                        <p className="descriptionProject">
+                          This is a website I developed for the "Vanilla" coffee shop. It supports multiple 
+                          languages using modern libraries, ensuring a seamless experience for users 
+                          around the globe.
+                        </p>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href="https://your-vanilla-website-link.vercel.app"
+                          className="toVanillaLink"
+                        >
+                          Read
+                        </a>
+                      </div>
+                  </div>
             </Slider>
           </div>
         </div>
