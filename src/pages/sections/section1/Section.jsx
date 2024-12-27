@@ -257,14 +257,8 @@ const Section = () => {
                           languages using modern libraries, ensuring a seamless experience for users 
                           around the globe.
                         </p>
-                        <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          href="https://your-vanilla-website-link.vercel.app"
-                          className="toVanillaLink"
-                        >
-                          Read
-                        </a>
+                        <a target='_blank' href='https://vanilla-ebon.vercel.app' id='yntymak' className='toHelperTask toYntymakLink'>Read</a>
+
                       </div>
                   </div>
             </Slider>
