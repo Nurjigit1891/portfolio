@@ -239,6 +239,10 @@ const Section = () => {
                   <a target='_blank' href='https://task-helper-wheat.vercel.app' id='yntymak' className='toHelperTask toYntymakLink'>Read</a>
                 </div>              
                 </div>
+
+                <div className="project thirdDiv">
+                  
+                </div>
             </Slider>
           </div>
         </div>
