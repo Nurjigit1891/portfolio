@@ -251,7 +251,7 @@ const Section = () => {
                         }}
                       />
                       <div className="project-textDiv-1">
-                        <p className="nameProject">Vanilla Coffee Shop</p>
+                        <p className="nameProject">Vanilla</p>
                         <p className="descriptionProject">
                           This is a website I developed for the "Vanilla" coffee shop. It supports multiple 
                           languages using modern libraries, ensuring a seamless experience for users 
