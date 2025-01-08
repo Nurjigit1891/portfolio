@@ -243,13 +243,17 @@ const Section = () => {
 
                 <div className="project fourthDiv">
                   <div
-                        className="project-imgDiv-4"
-                        style={{
-                          backgroundImage: `url(${vanillaPicture})`,
-                          backgroundSize: 'cover',
-                          backgroundPosition: 'center',
-                        }}
-                      />
+                    className="project-imgDiv-4"
+                    style={{
+                      backgroundImage: `url(${vanillaPicture})`,
+                      backgroundSize: 'cover',
+                      backgroundPosition: 'center',
+                      borderRadius: '30px',
+                      width: '300px',
+                      height: '300px',
+                    }}
+                  />
+
                       <div className="project-textDiv-1">
                         <p className="nameProject">Vanilla</p>
                         <p className="descriptionProject">
